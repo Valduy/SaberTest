@@ -78,7 +78,7 @@ namespace SomeLibrary
 
                 ReadObjectEnd(sr);
 
-                // Read connections
+                // Read connections.
                 ReadObjectBegin(sr);
 
                 for (int i = 0; i < Count; i++)
